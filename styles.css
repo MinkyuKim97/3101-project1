@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(220, 31, 31);
+}
+
+.testCont{
+    /* width: 100%; */
+    height: 90vh;
+    aspect-ratio:  16/9;
+    background-color: rgb(230, 204, 173);   
+    margin: auto; 
+}
