@@ -1,11 +1,26 @@
 body{
-    background-color: rgb(220, 31, 31);
+    background-color: rgb(20, 20, 20);
+    width: 100wh;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .testCont{
-    /* width: 100%; */
-    height: 90vh;
+    height: 97vh;
     aspect-ratio:  16/9;
     background-color: rgb(230, 204, 173);   
     margin: auto; 
+    display: flex;
+}
+.cont1{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+}
+.cont2{
+    width: 20%;
+    height: 100%;
+    background-color: red;
+    overflow-y: scroll;
+    scrollbar-width: none;
 }
